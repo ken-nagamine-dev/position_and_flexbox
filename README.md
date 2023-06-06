@@ -1,4 +1,4 @@
-# Position end FlexBox
+# Position and FlexBox
 Basic examples of position and flexBox.
 
 ## Position
