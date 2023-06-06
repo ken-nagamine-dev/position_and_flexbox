@@ -1,0 +1,291 @@
+.main-container {
+   padding: 80px 0;
+
+}
+
+/* POSITION */
+.position-fixed {
+   position: fixed;
+   z-index: 999;
+}
+
+.margintop {
+   padding-top: 50px;
+}
+
+.principal-container {
+   width: 100%;
+   height: 200px;
+   background-color: bisque;
+   margin-bottom: 20px;
+   position: relative;
+}
+
+.box1 {
+   width: 150px;
+   height: 150px;
+   background-color: aquamarine;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.box2 {
+   width: 500px;
+   height: 150px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: aliceblue;
+}
+
+.box3 {
+   width: 50px;
+   height: 50px;
+   background-color: cadetblue;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 2;
+}
+
+.box4 {
+   width: 50px;
+   height: 50px;
+   background-color: green;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 22;
+}
+
+.box5 {
+   width: 50px;
+   height: 50px;
+   background-color: blueviolet;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.box6 {
+   width: 100px;
+   height: 100px;
+   background-color: transparent;
+   border: 1px solid red;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.box7 {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+}
+
+/* FLEX BOX */
+.flex-container {
+   width: 100%;
+   height: auto;
+   padding: 20px 0;
+   display: flex;
+   background-color: burlywood;
+}
+
+.flex-row {
+   width: 50%;
+   display: flex;
+   flex-direction: row;
+}
+
+.flex-row-reverse {
+   width: 50%;
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.flex-column {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+.flex-column-reverse {
+   width: 50%;
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.box8 {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+}
+
+.box9 {
+   width: 100px;
+   height: 100px;
+   background-color: green;
+}
+
+.box10 {
+   width: 100px;
+   height: 100px;
+   background-color: greenyellow;
+}
+
+.flex-wrap {
+   display: flex;
+   flex-wrap: wrap;
+   width: 33%;
+   border: 1px solid black;
+}
+
+.flex-nowrap {
+   display: flex;
+   flex-wrap: nowrap;
+   width: 33%;
+   border: 1px solid black;
+}
+
+.flex-wrap-reverse {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   width: 33%;
+   border: 1px solid black;
+}
+
+.box11 {
+   width: 40%;
+   height: 100px;
+   background-color: red;
+}
+
+.box12 {
+   width: 100px;
+   height: 100px;
+   background-color: green;
+}
+
+.box13 {
+   width: 40%;
+   height: 100px;
+   background-color: greenyellow;
+}
+
+.justify-content-start {
+   display: flex;
+   justify-content: flex-start;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.justify-content-end {
+   display: flex;
+   justify-content: flex-end;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.justify-content-center {
+   display: flex;
+   justify-content: center;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.justify-content-space-between{
+   display: flex;
+   justify-content: space-between;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.justify-content-space-around {
+   display: flex;
+   justify-content: space-around;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.justify-content-space-evenly {
+   display: flex;
+   justify-content: space-evenly;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.align-items-start {
+   display: flex;
+   align-items: flex-start;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.align-items-end {
+   display: flex;
+   align-items: flex-end;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+   
+}
+
+.align-items-center {
+   display: flex;
+   align-items: center;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.align-items-stretch {
+   display: flex;
+   align-items: stretch;
+   width: 33%;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.align-items-baseline {
+   display: flex;
+   align-items: baseline;
+   width: 33%;
+   border: 1px solid black;
+}
+
+.box14{
+   width: 100px;
+   background-color: red;
+   height: 100px;
+   margin-top: 30px;
+}
+
+.box15 {
+   width: 100px;
+   background-color: red;
+}
+
+.box16 {
+   width: 100px;
+   background-color: green;
+}
+
+.box17 {
+   width: 100px;
+   background-color: greenyellow;
+}
+
+

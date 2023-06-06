@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Position and FlexBox</title>
+   <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+<body>
+   <header>
+      <h1 class="position-fixed">Position and Flexbox exemple</h1>
+      <p class="position-fixed margintop">This position is fixed</p>
+   </header>
+   <main class="main-container">
+      <section>
+         <h2>Position</h2>
+         <article>
+            <h3>First exemple</h3>
+            <p>Center X Center</p>
+            <div class="principal-container">
+               <div class="position1 box1"></div>
+            </div>
+         </article>
+         <article>
+            <h3>Second exemple</h3>
+            <p>mix</p>
+            <div class="principal-container">
+               <div class="box2">
+                  <div class="second-container">
+                     <div class="box3">P3</div>
+                     <div class="box4">P4</div>
+                     <div class="box5">P5</div>
+                  </div>
+               </div>
+            </div>
+         </article>
+         <article>
+            <h3>Third exemple</h3>
+            <p>mix2</p>
+            <div class="principal-container">
+               <div class="box2">
+                  <div class="second-container">
+                     <div class="box3">P3</div>
+                     <div class="box4">P4</div>
+                     <div class="box5">P5</div>
+                  </div>
+               </div>
+               <div class="box6">P6</div>
+               <div class="box5">P5</div>
+               <div class="box7">P7</div>
+            </div>
+         </article>
+      </section>
+
+      <section>
+         <h2>FlexBox</h2>
+         <article>
+            <h3>Flex row / Flex row reverse</h3>
+            <div class="flex-container">
+               <div class="flex-row">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+               <div class="flex-row-reverse">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+            </div>
+         </article>
+         <article>
+            <h3>Flex column / Flex column reverse</h3>
+            <div class="flex-container">
+               <div class="flex-column">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+               <div class="flex-column-reverse">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+            </div>
+         </article>
+         <article>
+            <h3>Flex-wrap / nowrap / wrap-reverse</h3>
+            <div class="flex-container">
+               <div class="flex-wrap">
+                  <div class="box11"></div>
+                  <div class="box12"></div>
+                  <div class="box13"></div>
+               </div>
+               <div class="flex-nowrap">
+                  <div class="box11"></div>
+                  <div class="box12"></div>
+                  <div class="box13"></div>
+               </div>
+               <div class="flex-wrap-reverse">
+                  <div class="box11"></div>
+                  <div class="box12"></div>
+                  <div class="box13"></div>
+               </div>
+            </div>
+         </article>
+         <article>
+            <h3>Justify content: flex-start / flex-end / flex-center</h3>
+            <div class="flex-container">
+               <div class="justify-content-start">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+               <div class="justify-content-end">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+               <div class="justify-content-center">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+            </div>
+         </article>
+         <article>
+            <h3>Justify content: space-between / space-around / space-evenly</h3>
+            <div class="flex-container">
+               <div class="justify-content-space-between">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+               <div class="justify-content-space-around">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+               <div class="justify-content-space-evenly">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+            </div>
+         </article>
+         <article>
+            <h3>Align items: flex-start / flex-end / center</h3>
+            <div class="flex-container">
+               <div class="align-items-start">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+               <div class="align-items-end">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+               <div class="align-items-center">
+                  <div class="box8"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+            </div>
+         </article>
+         <article>
+            <h3>Align items: stretch / baseline</h3>
+            <div class="flex-container">
+               <div class="align-items-stretch">
+                  <div class="box15"></div>
+                  <div class="box16"></div>
+                  <div class="box17"></div>
+               </div>
+               <div class="align-items-baseline">
+                  <div class="box14"></div>
+                  <div class="box9"></div>
+                  <div class="box10"></div>
+               </div>
+            </div>
+         </article>
+      </section>
+   </main>
+</body>
+</html>
